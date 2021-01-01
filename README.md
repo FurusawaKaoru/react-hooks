@@ -12,6 +12,7 @@ setStateに関数を渡すことができて前回のstateを受け取って更�
 https://ja.reactjs.org/docs/hooks-reference.html#functional-updates
 
 ### defaultProps
+https://qiita.com/pepo/items/fa68fdc3c79e006adef6
 
 ### onChangeのお約束
 
