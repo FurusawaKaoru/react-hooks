@@ -1,7 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const App = props => {
   const [state, setState] = useState(props)
+
+  // レンダリングのあとで実行される
+  useEffect(() => {
+    console.log('Effect')
+  })
+
+  useEffect(() => {
+    console.log('最初だけEffect')
+  }, [])
+
+  useEffect(() => {
+    console.log('nameEffect')
+  }, [state.name])
 
   return (
     <React.Fragment>
