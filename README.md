@@ -13,3 +13,8 @@ https://ja.reactjs.org/docs/hooks-reference.html#functional-updates
 
 ### defaultProps
 
+### onChangeのお約束
+
+```
+onChange={e => setName(e.target.value)}
+```
